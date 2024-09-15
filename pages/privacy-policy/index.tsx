@@ -11,12 +11,12 @@ const PrivacyPolicy: NextPage = () => {
                 <meta name="description" content="Privacy Policy of FlatChat" />
             </Head>
 
-            <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
-                <h1>Privacy Policy</h1>
+            <div className='min-h-screen flex flex-col bg-[#2029BA] p-10'>
+                <h1 className='text-4xl font-extrabold text-white drop-shadow-lg mb-4'>Privacy Policy</h1>
                 <p>
                     FlatChat operates the portal in India, which offers expense management for friends and flatmates the web-portal FlatChat.app and partner website(s) and mobile application(s) (collectively referred to as the “Portal”) (FlatChat referred to herein as “FlatChat” or “we” or “us” “our”).
                 </p>
-                <p>
+                <p className='pt-5'>
                     Any person utilising the Portal ("User" or "you" or "your") or any of its features (" Services ") shall be bound by this Privacy Policy.
 
                     FlatChat respects the privacy of its Users and is committed to protecting it in all respects. With a view to offering an enriching and holistic internet experience to its Users, FlatChat offers a vast repository of Services. Most of the Services are offered for free. The information about the User is collected by FlatChat as (i) information supplied by the User and (ii) information automatically tracked during User's navigation on FlatChat.
@@ -25,7 +25,7 @@ const PrivacyPolicy: NextPage = () => {
 
                 </p>
 
-                <h2>Purpose and Usage</h2>
+                <h1 className='text-2xl font-extrabold text-white drop-shadow-lg mb-4 pt-5'>Purpose and Usage</h1>
                 <p>
                     To avail of certain Services on the Portal, Users would be required to provide certain information for the registration process, namely:
                     1. Name
@@ -42,7 +42,7 @@ const PrivacyPolicy: NextPage = () => {
 
                 </p>
 
-                <h2>Disclosure/Sharing</h2>
+                <h1 className='text-2xl font-extrabold text-white drop-shadow-lg mb-4 pt-5' >Disclosure/Sharing</h1>
                 <p>
                     FlatChat may also share information as provided by you and data concerning usage of the Services with third-party service providers engaged by FlatChat, for the purpose of data analytics or other similar purposes, for the purpose of storage, improving the services and helping FlatChat serve you better.
 
@@ -52,14 +52,14 @@ const PrivacyPolicy: NextPage = () => {
 
                 </p>
 
-                <h2>Use of Cookies</h2>
+                <h1 className='text-2xl font-extrabold text-white drop-shadow-lg mb-4 pt-5'>Use of Cookies</h1>
                 <p>
                     To improve the effectiveness and usability of the Portal for our Users, we use "cookies" or similar electronic tools to collect information to assign each visitor a unique random number as a User Identification (User ID) to understand the User's individual interests using the identified device. Unless the User voluntarily identifies himself/herself (e.g., through registration), FlatChat has no way of knowing who the User is, even if we assign a cookie to the User's device. The only personal information a cookie can contain is information supplied by the User. A cookie cannot read data off the User's hard drive. FlatChat’s advertisers may also assign their own cookies to the User's browser (if the User clicks on their ad banners), a process that FlatChat does not control.
                     FlatChat's web servers automatically collect limited information about the User's device's connection to the Internet, including the User's IP address, when the User visits the Portal. (User's IP address is a number that lets devices attached to the Internet know where to send data to the User -- such as the web pages viewed by the User). The User's IP address does not identify the User personally. FlatChat uses this information to deliver its web pages to Users upon request, to tailor its Portal to the interests of its users, to measure traffic within the Portal, and let advertisers know the geographic locations from where FlatChat's visitors come.
 
                 </p>
 
-                <h2>Security Procedures</h2>
+                <h1 className='text-2xl font-extrabold text-white drop-shadow-lg mb-4 pt-5'>Security Procedures</h1>
                 <p>
                     All information gathered on FlatChat is securely stored within FlatChat- a controlled database. The database is stored on servers secured behind a firewall; access to such servers is password-protected and strictly limited based on a need-to-know basis. However, we understand that as effective as our security measures are, no security system is impenetrable. Thus, we cannot guarantee the security of our database, nor can we guarantee that information you supply will not be intercepted while being transmitted to us over the Internet. Further, any information you include in a posting to the discussion areas will be available to anyone with Internet access. By using the Portal, you understand and agree that your information may be used in or transferred to countries other than India.
                     FlatChat also believes that the internet is an ever-evolving medium. We may periodically review from time to time and change our privacy policy to incorporate future changes that may be considered appropriate without any notice to you. Our use of any information we gather will always be consistent with the policy under which the information was collected, regardless of what the new policy may be. Any changes to our privacy policy will be posted on this page, so you are always aware of what information we collect, how we use it, how we store it, and under what circumstances we disclose it.
@@ -69,22 +69,22 @@ const PrivacyPolicy: NextPage = () => {
 
 
 
-                <h2>Advertising</h2>
+                <h1 className='text-2xl font-extrabold text-white drop-shadow-lg mb-4 pt-5'>Advertising</h1>
                 <p>
                     When FlatChat presents information to its online advertisers -- to help them understand our audience and confirm the value of advertising on the Portal -- it is usually in the form of aggregated statistics on traffic to various pages within our site. When you register with FlatChat, we contact you from time to time about updating your content to provide features that we believe may benefit you.
                 </p>
 
-                <h2>Conditions of Use</h2>
+                <h1 className='text-2xl font-extrabold text-white drop-shadow-lg mb-4 pt-5'>Conditions of Use</h1>
                 <p>
                     FLATCHAT DOES NOT WARRANT THAT THIS PORTAL, ITS SERVERS, OR EMAIL SENT BY US OR ON OUR BEHALF ARE VIRUS FREE. FLATCHAT WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND ARISING FROM THE USE OF THIS PORTAL, INCLUDING, BUT NOT LIMITED TO, COMPENSATORY, DIRECT, INDIRECT, INCIDENTAL, PUNITIVE, SPECIAL, AND CONSEQUENTIAL DAMAGES, LOSS OF DATA, GOODWILL, BUSINESS OPPORTUNITY, INCOME OR PROFIT, LOSS OF OR DAMAGE TO PROPERTY AND CLAIMS OF THIRD PARTIES. IN NO EVENT WILL FlatChat BE LIABLE FOR ANY DAMAGES WHATSOEVER IN AN AMOUNT IN EXCESS OF AN AMOUNT OF INR 100.
                 </p>
 
-                <h2>Retention of Data</h2>
+                <h1 className='text-2xl font-extrabold text-white drop-shadow-lg mb-4 pt-5'>Retention of Data</h1>
                 <p>
                     Your personal information may be retained and may continue to be used until (i) the relevant purposes for the use of your information described in this Privacy Policy are no longer applicable, and (ii) we are no longer required by applicable law, regulations, contractual obligations or legitimate business purposes to retain your personal information and the retention of your personal information is not required for the establishment, exercise or defence of any legal claim.
                 </p>
 
-                <h2>User Account and Data Deletion</h2>
+                <h1 className='text-2xl font-extrabold text-white drop-shadow-lg mb-4 pt-5'>User Account and Data Deletion</h1>
                 <p>
                     Users are entitled to request FlatChat to delete their User accounts and their personal information by sending an email with their written request to contact@flatchat.app
                     We will do our best to respond promptly and, in any event, within one month of the following:
@@ -100,17 +100,17 @@ const PrivacyPolicy: NextPage = () => {
 
                 </p>
 
-                <h2>Applicable Law and Jurisdiction</h2>
+                <h1 className='text-2xl font-extrabold text-white drop-shadow-lg mb-4 pt-5'>Applicable Law and Jurisdiction</h1>
                 <p>
                     By visiting this Portal, you agree that the laws of the Republic of India, without regard to its conflict of laws principles, govern this Privacy Policy, and any dispute arising in respect hereof shall be subject to and governed by the dispute resolution process set out in the Terms and Conditions.
                 </p>
 
-                <h2>Updating Information</h2>
+                <h1 className='text-2xl font-extrabold text-white drop-shadow-lg mb-4 pt-5'>Updating Information</h1>
                 <p>
                     You will promptly notify FlatChat if there are any changes, updates, or modifications to your information. Further, you may also review, update or modify your information and user preferences by logging into your Profile page on the Portal.
                 </p>
 
-                <h2>Contact Us</h2>
+                <h1 className='text-2xl font-extrabold text-white drop-shadow-lg mb-4 pt-5'>Contact Us</h1>
                 <p>
                     Any questions or clarifications with respect to this Policy or any complaints, comments, concerns, or feedback can be sent to FlatChat at: contact@flatchat.app.
                 </p>
