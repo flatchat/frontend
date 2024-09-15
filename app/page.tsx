@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
@@ -12,13 +14,13 @@ export default function Home() {
         </div>
         <footer className="absolute bottom-0 w-full py-4 text-white text-center">
           <div className="flex justify-center space-x-4">
-            <a href="/privacy-policy" className="hover:underline">
+            <Link href="/privacy-policy" className="hover:underline">
               Privacy Policy
-            </a>
+            </Link>
             <span>|</span>
-            <a href="/delete-account" className="hover:underline">
+            <Link href="/delete-account" className="hover:underline">
               Delete Account
-            </a>
+            </Link>
           </div>
         </footer>
       </div>
