@@ -46,6 +46,10 @@ export default function Home() {
             <Link href="/delete-account" className="hover:underline">
               Delete Account
             </Link>
+            <span>|</span>
+            <Link href="/contact-us" className="hover:underline">
+              Contact Us
+            </Link>
           </div>
         </footer>
       </div>
