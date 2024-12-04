@@ -13,8 +13,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "FlatChat",
-  description: "The SuperApp for Friends and Flatmates",
+  title: "EazyExpense",
+  description: "Manage group and personal expenses",
 };
 
 export default function RootLayout({
