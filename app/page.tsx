@@ -7,7 +7,7 @@ export default function Home() {
       <div className="min-h-screen flex flex-col items-center justify-center bg-[#2029BA]">
         <div className="text-center">
           <h1 className="text-6xl font-extrabold text-white drop-shadow-lg mb-4">
-            FlatChat
+            EazyExpense
           </h1>
           <p className="text-2xl text-white">
             The SuperApp for Friends and Flatmates
